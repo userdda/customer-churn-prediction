@@ -1,4 +1,3 @@
-```markdown
 # 客户流失预测模型 (Customer Churn Prediction)
 
 ##  项目背景
@@ -13,17 +12,16 @@
 - 提出可执行的流失预防策略  
 
 ##  技术栈
-- **语言**：Python (3.11)  
-- **数据处理**：Pandas, NumPy  
-- **建模与机器学习**：scikit-learn  
-- **可视化**：Matplotlib, Seaborn  
-- **开发环境**：Jupyter Notebook  
+- 语言：Python (3.11)  
+- 数据处理：Pandas, NumPy  
+- 建模与机器学习：scikit-learn  
+- 可视化：Matplotlib, Seaborn  
+- 开发环境：Jupyter Notebook  
 
 ##  项目结构
-```
 
 customer-churn-prediction/
-├─ data/                # 数据集（示例小样本，原始数据可参考 Kaggle）
+├─ data/                # 数据集（Kaggle）
 ├─ notebooks/
 │   ├─ eda.ipynb        # 探索性数据分析
 │   └─ modeling.ipynb   # 建模与评估
@@ -34,9 +32,7 @@ customer-churn-prediction/
 ├─ requirements.txt     # 依赖库版本
 └─ README.md            # 项目说明文档
 
-````
-
-## 📊 实验结果
+##  实验结果
 - 模型准确率：**92%**  
 - 召回率提升：**25%**（相比基线模型）  
 - 模拟优化策略：可将客户流失率降低约 **15%**  
@@ -44,34 +40,24 @@ customer-churn-prediction/
 
 结果表明，客户流失预测模型能够有效识别高风险用户群体，为电商平台提供科学的干预策略，支持精细化运营与个性化营销。  
 
-## 🚀 使用方法
+##  使用方法
 1. 克隆本项目：
-   ```bash
    git clone https://github.com/yourusername/customer-churn-prediction.git
-````
 
 2. 安装依赖：
-
-   ```bash
    pip install -r requirements.txt
-   ```
+
 3. 运行探索性分析：
-
-   ```bash
    jupyter notebook notebooks/eda.ipynb
-   ```
+
 4. 运行建模与预测：
-
-   ```bash
    jupyter notebook notebooks/modeling.ipynb
-   ```
+  
 
-## 📖 参考
+## 参考
 
 * Kaggle 数据集: [Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 * Scikit-learn 官方文档: [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
 * 电商行业客户运营实践相关论文与案例
-
----
 
 
