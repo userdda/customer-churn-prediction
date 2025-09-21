@@ -1,4 +1,3 @@
-```markdown
 # 客户流失预测模型 (Customer Churn Prediction)
 
 ##  项目背景
@@ -20,8 +19,6 @@
 - **开发环境**：Jupyter Notebook  
 
 ##  项目结构
-```
-
 customer-churn-prediction/
 ├─ data/                # 数据集（示例小样本，原始数据可参考 Kaggle）
 ├─ notebooks/
@@ -33,8 +30,6 @@ customer-churn-prediction/
 ├─ results/             # 结果图表与报告
 ├─ requirements.txt     # 依赖库版本
 └─ README.md            # 项目说明文档
-
-````
 
 ##  实验结果
 - 模型准确率：**92%**  
