@@ -19,18 +19,17 @@
 - **开发环境**：Jupyter Notebook  
 
 ##  项目结构
-
 customer-churn-prediction/
-├─ data/                # 数据集（Kaggle）
+├─ data/ # 数据集（示例小样本，原始数据可参考 Kaggle）
 ├─ notebooks/
-│   ├─ eda.ipynb        # 探索性数据分析
-│   └─ modeling.ipynb   # 建模与评估
+│ ├─ eda.ipynb # 探索性数据分析
+│ └─ modeling.ipynb # 建模与评估
 ├─ src/
-│   ├─ preprocessing.py # 数据预处理函数
-│   └─ model.py         # 模型训练与预测
-├─ results/             # 结果图表与报告
-├─ requirements.txt     # 依赖库版本
-└─ README.md            # 项目说明文档
+│ ├─ preprocessing.py # 数据预处理函数
+│ └─ model.py # 模型训练与预测
+├─ results/ # 结果图表与报告
+├─ requirements.txt # 依赖库版本
+└─ README.md # 项目说明文档
 
 ##  实验结果
 - 模型准确率：**92%**  
@@ -41,7 +40,9 @@ customer-churn-prediction/
 结果表明，客户流失预测模型能够有效识别高风险用户群体，为电商平台提供科学的干预策略，支持精细化运营与个性化营销。  
 
 ##  使用方法
+
 1. 克隆本项目：
+
    ```bash
    git clone https://github.com/yourusername/customer-churn-prediction.git
 ````
