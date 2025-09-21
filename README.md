@@ -19,8 +19,9 @@
 - **开发环境**：Jupyter Notebook  
 
 ##  项目结构
+
 customer-churn-prediction/
-├─ data/                # 数据集（示例小样本，原始数据可参考 Kaggle）
+├─ data/                # 数据集（Kaggle）
 ├─ notebooks/
 │   ├─ eda.ipynb        # 探索性数据分析
 │   └─ modeling.ipynb   # 建模与评估
